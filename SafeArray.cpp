@@ -11,7 +11,7 @@ private:
 };
 void SafeArray::SetData(int x,int item){
 	if(x>=(n-1)){
-	cout<<"你越界了"<<endl;
+	cout<<"浣犺秺鐣屼簡"<<endl;
 	}
 	else{
 	a[x-1]=item;
@@ -19,7 +19,7 @@ void SafeArray::SetData(int x,int item){
 }
 int SafeArray::GetData(int loc){
 	if(loc>(n-1)){
-	cout<<"你越界了"<<endl;
+	cout<<"浣犺秺鐣屼簡"<<endl;
 	}
 	else{
 		return a[loc-1];
