@@ -36,24 +36,24 @@ int main(){
 	GK.pop();
 	}
 	else{
-	cout<<"Õ»ÒÑ¾­¿Õ"<<endl;
+	cout<<"æ ˆä¸ºç©º"<endl;
 	}
 	if(!GK.isEmpty()){
 	GK.pop();
 	}
 	else{
-	cout<<"Õ»ÒÑ¾­¿Õ"<<endl;
+	cout<<"æ ˆä¸ºç©ºâ€œ<endl;
 	}
 	if(!GK.isEmpty()){
 	GK.pop();
 	}
 	else{
-	cout<<"Õ»ÒÑ¾­¿Õ"<<endl;
+	cout<<"æ ˆä¸ºç©ºâ€endl;
 	}
 	if(!GK.isEmpty()){
 	GK.pop();
 	}
 	else{
-	cout<<"Õ»ÒÑ¾­¿Õ"<<endl;
+	cout<<"æ ˆä¸ºç©ºâ€œendl;
 	}
 }
