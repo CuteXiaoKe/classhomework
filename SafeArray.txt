@@ -32,3 +32,18 @@ int main(){
 	int b=a.GetData(18);
 	cout<<b<<endl;
 }
+int SafeArray::GetData(int loc){
+	if(loc>(n-1)){
+	cout<<"ÄãÔ½½çÁË"<<endl;
+	}
+	else{
+		return a[loc-1];
+	}
+}
+int main(){
+	SafeArray a=SafeArray(20);
+	a.SetData(22,9);
+	a.SetData(18,100);
+	int b=a.GetData(18);
+	cout<<b<<endl;
+}
